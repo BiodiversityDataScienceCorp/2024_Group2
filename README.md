@@ -1,6 +1,6 @@
 # 2024_Group2
 
-Calvin Cajayon, Olivia Garcia, Antonio Rioseco
+Calvin Cajayon, Olivia Garcia, Antonio Rioseco, Mairin Thorne
 
 Species: Little Brown Bat?
 
@@ -17,3 +17,8 @@ My favorite species is a giraffe, specifically a reticulated giraffe (Giraffa re
 ### Antonio:
 
 My favorite animal is the Pacific treefrog. (Pseudacris Regilla) I grew up around a pond in rural Washington where during the summer, I would constantly hear hundreds or thousands of them making their noise. Which I have grown to love. 
+
+
+### Mairin:
+
+My favorite species right now is *Eustala anastera*, it is a beautiful species of orb weaver spider. They are found throughout the Americas, but *E. anastera* is the only species of *Eustala* that has been recorded in the literature as present in Oregon. They are colloquially referred to as the "hump-backed orb-weaver" for their unique ridges or "humps" on their abdomen. *E. anastera* come in many color variations. My favorite is the stunning green & yellow that mimics forest foliage. 
