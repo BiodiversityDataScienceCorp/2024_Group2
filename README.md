@@ -1,6 +1,6 @@
 # 2024_Group2
 
-Calvin Cajayon, Olivia Garcia, 
+Calvin Cajayon, Olivia Garcia, Antonio Rioseco
 
 Species: Little Brown Bat?
 
@@ -13,3 +13,7 @@ My favorite species is Phylum Cnidaria. Growing up my family and I would visit t
 ### Olivia's favorite species
 
 My favorite species is a giraffe, specifically a reticulated giraffe (Giraffa reticulata). I love their size, their slow nature, and their patterns. I just think they are beautiful animals, especially with their long eyelashes. 
+
+### Antonio:
+
+My favorite animal is the Pacific treefrog. (Pseudacris Regilla) I grew up around a pond in rural Washington where during the summer, I would constantly hear hundreds or thousands of them making their noise. Which I have grown to love. 
