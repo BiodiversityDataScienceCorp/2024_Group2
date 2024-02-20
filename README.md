@@ -2,7 +2,7 @@
 
 Calvin Cajayon, Olivia Garcia, Antonio Rioseco, Mairin Thorne
 
-Species: Little Brown Bat?
+Species: Little Brown Bat (*Myotis lucifugis*)
 
 ## Our Favorite Species:
 
