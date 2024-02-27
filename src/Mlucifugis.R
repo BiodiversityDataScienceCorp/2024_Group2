@@ -45,9 +45,15 @@ occ_download(pred("taxonKey",speciesKey), format = "SIMPLE_CSV")
 # Citation:
 #   GBIF Occurrence Download https://doi.org/10.15468/dl.4a3fpw Accessed from R via rgbif (https://github.com/ropensci/rgbif) on 2024-02-26
 
-bat<- occ_download_get('0017613-240216155721649') %>% 
+bat<- occ_download_get('0017613-240216155721649',path ="data/") %>% 
   occ_download_import()
 
 write_csv(bat, "data/rawData.csv")
 
+batdata <- read_csv("data/rawData.csv")
+
+batdata <- batdata %>% 
+  filter(!is.na(decimalLatitude), !is.na(decimalLongitude))
+
+batdata
 
