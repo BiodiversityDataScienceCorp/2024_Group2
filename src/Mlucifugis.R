@@ -55,5 +55,26 @@ batdata <- read_csv("data/rawData.csv")
 batdata <- batdata %>% 
   filter(!is.na(decimalLatitude), !is.na(decimalLongitude))
 
-batdata
+batdata <- batdata %>%
+  filter(countryCode %in% c("US", "CA", "MX"))
+
+batdata <- batdata %>%
+  filter(!basisOfRecord %in% c("FOSSIL_SPECIMEN", "LIVING_SPECIMEN"))
+
+batdata <- batdata %>%
+  cc_sea(lon="decimalLongitude", lat = "decimalLatitude")
+
+batdata <- batdata %>%
+  distinct(decimalLatitude, decimalLongitude, speciesKey, datasetKey, .keep_all= TRUE)
+
+write.csv(batdata, "data/cleanedData.csv")
+
+
+
+
+
+
+
+
+
 
