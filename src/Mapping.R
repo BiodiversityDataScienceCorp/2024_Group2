@@ -23,4 +23,4 @@ map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
 
 mapshot2(map, file = "output/occurrenceMap.png")
 
-
+#The occurrence points are in great numbers on the west and east coast of the U.S., and start to decrease as you move towards the middle of the U.S.
