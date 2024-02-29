@@ -21,6 +21,6 @@ map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
             labels ="Myotis Lucifugus", 
             colors = "hotpink")
 
-
+mapshot2(map, file = "output/occurrenceMap.png")
 
 
