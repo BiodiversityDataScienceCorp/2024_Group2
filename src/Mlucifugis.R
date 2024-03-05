@@ -69,6 +69,9 @@ batdata <- batdata %>%
 
 write.csv(batdata, "data/cleanedData.csv")
 
+#trying to remove all non north america points 
+testFilter = data %>%
+  subset(decimalLongitude<0)
 
 
 
