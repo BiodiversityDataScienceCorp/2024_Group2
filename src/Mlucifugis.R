@@ -67,11 +67,16 @@ batdata <- batdata %>%
 batdata <- batdata %>%
   distinct(decimalLatitude, decimalLongitude, speciesKey, datasetKey, .keep_all= TRUE)
 
+batdata = batdata %>%
+  filter(decimalLongitude<0)%>%
+  filter(decimalLatitude<70)
+
 write.csv(batdata, "data/cleanedData.csv")
 
 #trying to remove all non north america points 
 testFilter = data %>%
-  subset(decimalLongitude<0)
+  filter(decimalLongitude<0)%>%
+  filter(decimalLatitude<70)
 
 
 
