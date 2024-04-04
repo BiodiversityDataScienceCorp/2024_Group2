@@ -16,7 +16,7 @@ My favorite species is a giraffe, specifically a reticulated giraffe (Giraffa re
 
 ### Antonio:
 
-My favorite animal is the Pacific treefrog. (Pseudacris Regilla) I grew up around a pond in rural Washington where during the summer, I would constantly hear hundreds or thousands of them making their noise. Which I have grown to love. 
+My favorite animal is the Pacific Treefrog. (Pseudacris Regilla) I grew up around a pond in rural Washington where during the summer, I would constantly hear hundreds or thousands of them making their noise. Which I have grown to love. 
 
 
 ### Mairin:
