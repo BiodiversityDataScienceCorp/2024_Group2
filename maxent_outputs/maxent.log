@@ -1,0 +1,38 @@
+Tue Apr 09 19:02:24 UTC 2024
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 518979584, total allocated 81133568, free 61699208, used 19434360, increment 19434360
+Reading samples from presence
+Read samples: max memory 518979584, total allocated 81133568, free 72242768, used 8890800, increment -10543560
+Adding samples to background in feature space
+Command line used:  autorun -e maxent_outputs/absence -o maxent_outputs -s maxent_outputs/presence -z
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=maxent_outputs samplesfile=maxent_outputs/presence environmentallayers=maxent_outputs/absence autorun novisible
+Species: species
+Layers: wc2.1_2.5m_bio_1 wc2.1_2.5m_bio_10 wc2.1_2.5m_bio_11 wc2.1_2.5m_bio_12 wc2.1_2.5m_bio_13 wc2.1_2.5m_bio_14 wc2.1_2.5m_bio_15 wc2.1_2.5m_bio_16 wc2.1_2.5m_bio_17 wc2.1_2.5m_bio_18 wc2.1_2.5m_bio_19 wc2.1_2.5m_bio_2 wc2.1_2.5m_bio_3 wc2.1_2.5m_bio_4 wc2.1_2.5m_bio_5 wc2.1_2.5m_bio_6 wc2.1_2.5m_bio_7 wc2.1_2.5m_bio_8 wc2.1_2.5m_bio_9
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: maxent_outputs
+samplesfile: maxent_outputs/presence
+environmentallayers: maxent_outputs/absence
+autorun: true
+visible: false
+
+getSamples: max memory 518979584, total allocated 81133568, free 73235616, used 7897952, increment -992848
+Making features
+makeFeatures: max memory 518979584, total allocated 81133568, free 60702824, used 20430744, increment 12532792
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Time since start: 1.402
+2870 samples
+Density: max memory 518979584, total allocated 81133568, free 54374848, used 26758720, increment 6327976
+linearPredictor: max memory 518979584, total allocated 81133568, free 54374848, used 26758720, increment 0
+FeaturedSpace: max memory 518979584, total allocated 81133568, free 54374848, used 26758720, increment 0
+Sequential: max memory 518979584, total allocated 81133568, free 54374848, used 26758720, increment 0
+Initial loss: 8.65434302956347
+Time since start: 6.971
+500: time = 5.339000 loss = 8.390414
+Resulting gain: 0.2639292612592481
+Time since start: 8.334
+Projecting...
+Writing file maxent_outputs/species.csv
+Time since start: 9.634
+Ending
