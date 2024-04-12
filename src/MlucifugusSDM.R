@@ -220,13 +220,13 @@ geographicAreaFutureC6 <- crop(futureClimateRaster, predictExtent)
 
 # 8. Run the future SDM
 
-habronattusFutureSDM <- raster::predict(habronattusCurrentSDM, geographicAreaFutureC6)
+mlucifugusFutureSDM <- raster::predict(mlucifugusCurrentSDM, geographicAreaFutureC6)
 
 
 # 9. Plot the future SDM
 
 
-habronattusFutureSDMDf <- as.data.frame(habronattusFutureSDM, xy=TRUE)
+mlucifugusFutureSDMDf <- as.data.frame(mlucifugusFutureSDM, xy=TRUE)
 
 
 xmax <- max(habronattusFutureSDMDf$x)
