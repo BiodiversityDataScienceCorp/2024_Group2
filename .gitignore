@@ -21,6 +21,10 @@
 # RStudio files
 .Rproj.user/
 
+# remove big files
+data/wc2.1_2.5m
+data/cmip6/wc2.1_2.5m
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -47,3 +51,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# dont save climate data
+data/wc2.1_2.5m
+data/cip6/wc2.1_2.5m
