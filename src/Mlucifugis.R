@@ -71,7 +71,11 @@ batdata = batdata %>%
   filter(decimalLongitude<0)%>%
   filter(decimalLatitude<70)
 
-write.csv(batdata, "data/cleanedData.csv")
+
+batdata<-batdata %>%
+  filter(stateProvince=="Oregon" | stateProvince=="Arizona")
+
+write_csv(batdata, "data/cleanedDataOrAz.csv")
 
 #trying to remove all non north america points 
 testFilter = data %>%

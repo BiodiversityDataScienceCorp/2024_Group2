@@ -53,5 +53,5 @@ po/*~
 rsconnect/
 
 # dont save climate data
-data/wc2.1_2.5m
-data/cip6/wc2.1_2.5m
+data/wc2.1_2.5m/
+data/cip6/wc2.1_2.5m/
