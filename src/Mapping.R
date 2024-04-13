@@ -1,5 +1,6 @@
 # Loading in the Data (created in Mlucifugis.R)
 data <- read.csv("data/cleanedData.csv")
+data <- read_csv("data/cleanedDataOrAz.csv")
 
 # Load Libraries 
 library(leaflet)
@@ -21,7 +22,7 @@ map <- leaflet(options = leafletOptions(zoomControl = FALSE)) %>%
             labels ="Myotis Lucifugus", 
             colors = "hotpink")
 
-mapshot2(map, file = "output/occurrenceMapv2.png")
+mapshot2(map, file = "output/occurrenceMapv2OrAz.png")
 
 map
 
