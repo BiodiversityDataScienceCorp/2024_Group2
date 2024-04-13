@@ -35,7 +35,7 @@ invisible(lapply(packages, library, character.only=TRUE))
 
 # start with our data
 
-occurrenceCoords<-read_csv("data/cleanedData.csv") %>%
+occurrenceCoords<-read_csv("data/cleanedDataOrAz.csv") %>%
   dplyr::select( decimalLongitude, decimalLatitude)
 
 occurrenceSpatialPts <- SpatialPoints(occurrenceCoords, 
@@ -194,7 +194,7 @@ ggplot() +
   theme(legend.box.background=element_rect(),legend.box.margin=margin(5,5,5,5)) 
 
 
-ggsave("output/mlucifugusCurrentSdm.jpg",  width = 8, height = 6)
+ggsave("output/mlucifugusCurrentSdmOrAz.jpg",  width = 8, height = 6)
 
 #### End Current SDM #########
 
@@ -229,28 +229,28 @@ mlucifugusFutureSDM <- raster::predict(mlucifugusCurrentSDM, geographicAreaFutur
 mlucifugusFutureSDMDf <- as.data.frame(mlucifugusFutureSDM, xy=TRUE)
 
 
-xmax <- max(habronattusFutureSDMDf$x)
-xmin <- min(habronattusFutureSDMDf$x)
-ymax <- max(habronattusFutureSDMDf$y)
-ymin <- min(habronattusFutureSDMDf$y)
+xmax <- max(mlucifugusFutureSDMDf$x)
+xmin <- min(mlucifugusFutureSDMDf$x)
+ymax <- max(mlucifugusFutureSDMDf$y)
+ymin <- min(mlucifugusFutureSDMDf$y)
 
 
 ggplot() +
   geom_polygon(data = wrld, mapping = aes(x = long, y = lat, group = group),
                fill = "grey75") +
-  geom_raster(data = habronattusFutureSDMDf, aes(x = x, y = y, fill = maxent)) + 
+  geom_raster(data = mlucifugusFutureSDMDf, aes(x = x, y = y, fill = maxent)) + 
   scale_fill_gradientn(colors = terrain.colors(10, rev = T)) +
   coord_fixed(xlim = c(xmin, xmax), ylim = c(ymin, ymax), expand = F) +
   scale_size_area() +
   borders("state") +
   borders("world", colour = "black", fill = NA) + 
-  labs(title = "Future SDM of Habronattus americanus Under CMIP6 Climate Conditions",
+  labs(title = "Future SDM of Myotis lucifugus Under CMIP6 Future Climate Predictions",
        x = "longitude",
        y = "latitude",
        fill = "Env Suitability") +
   theme(legend.box.background=element_rect(),legend.box.margin=margin(5,5,5,5)) 
 
-ggsave("output/habronattusFutureSdm.jpg",  width = 8, height = 6)
+ggsave("output/mlucifugusFutureSdmOrAz.jpg",  width = 8, height = 6)
 
 
 
