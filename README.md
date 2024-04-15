@@ -58,7 +58,7 @@ The project uses the following additional R packages and versions (will be insta
 `MlucifugusSDM.R` - Creating the SDM's
 
 ## 🏃 Running the code
-run the code in the following order:
+run the code in the following order:  
 `Mlucifugus.R`  
 `Mapping.R`  
 `MlucifugusSDM.R`  
