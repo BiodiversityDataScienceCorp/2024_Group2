@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Repository for Making Species Occurrence and Distribution maps for the Little Brown Bat (*Myotis Lucifugus*)
 
 ## Calvin Cajayon, Olivia Garcia, Antonio Rioseco, Mairin Thorne
