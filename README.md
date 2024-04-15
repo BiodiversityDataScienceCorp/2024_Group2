@@ -59,9 +59,9 @@ The project uses the following additional R packages and versions (will be insta
 
 ## 🏃 Running the code
 run the code in the following order:
-`Mlucifugus.R`
-`Mapping.R`
-`MlucifugusSDM.R`
+`Mlucifugus.R`  
+`Mapping.R`  
+`MlucifugusSDM.R`  
 
 ## 🤔 Considerations
 Although the Future SDM makes the next 50 years for the Little Brown Bat look good, the fungal disease White Nose Syndrome is endangering the Little Brown Bat and other species of bats accros the countries 
