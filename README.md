@@ -71,4 +71,4 @@ run the code in the following order:\
 
 Although the Future SDM makes the next 50 years for the Little Brown Bat
 look good, the fungal disease White Nose Syndrome is endangering the
-Little Brown Bat and other species of bats accros the countries
+Little Brown Bat and other species of bats accros the countries.
