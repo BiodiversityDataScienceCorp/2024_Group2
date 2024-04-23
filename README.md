@@ -10,9 +10,7 @@ Bat!](images/Little_Brown_Myotis.JPG)
 The Little Brown Bat, *Myotis Lucifugus* has a widespread range in North
 America from Alaska-Canada forests. This species has had a history of a
 declining population due to the white-nose syndrome, a deadly novel
-fungal disease. The US Fish and Wildlife Service is currently reviewing
-the status of the Little Brown Bat and hopes to maintain the longevity
-of the species.
+fungal disease. It is listed under the Endangered Species Act as vulnerable. The US Fish and Wildlife Service is currently reviewing the status of the Little Brown Bat and hopes to maintain the longevity of the species.
 
 ## 🔗 Dependencies
 
@@ -44,8 +42,6 @@ the United States of America to allow future SDM to run
 Coast\
 `mlucifugusFutureSdmOrAz.jpg` - Future SDM limited to only the West
 Coast\
-`occurrenceMap.png` - First version of the occurrence map included
-countries that were not meant to be included\
 `occurrenceMapv2.png` - Final version of the occurrence map
 
 ### 📜 Src
@@ -65,4 +61,6 @@ run the code in the following order:\
 
 Although the Future SDM makes the next 50 years for the Little Brown Bat
 look good, the fungal disease White Nose Syndrome is endangering the
-Little Brown Bat and other species of bats accros the countries.
+Little Brown Bat and other species of bats across the countries.  
+  
+In order to run these models we used JAVA, which ran out of memory during the future SDM due to the high volume of observation points. Therefore, we limited data points to Oregon and Arizona for our presentation to OR & AZ USFWS. This might contribute to potential inaccuracies in the model due to the low number of data points we were able to use. This could have led to the overly positive results seen in the future SDM. We also limited to current SDM to OR & AZ to match the future SDM.
