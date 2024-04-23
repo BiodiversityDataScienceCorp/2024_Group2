@@ -1,7 +1,7 @@
 # Repository for Making Species Occurrence and Distribution maps for the Little Brown Bat (*Myotis Lucifugus*)
 
 ## Calvin Cajayon, Olivia Garcia, Antonio Rioseco, Mairin Thorne
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11051286.svg)](https://doi.org/10.5281/zenodo.11051286)
 ![*Myotis Lucifugus* - the Little Brown
 Bat!](images/Little_Brown_Myotis.JPG)
 
